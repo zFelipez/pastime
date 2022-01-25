@@ -1,4 +1,11 @@
 
+
+
+#this code was made for practicing, it adds tasks, you can access them by their names, undo and redo tasks.
+
+#Likely errors to be found and fixed 
+
+
 def to_do():
     tasks=dict()
     task_redo_and_undo=[]
