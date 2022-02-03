@@ -1,7 +1,7 @@
 cnpj= '04.252.011/0001-10'
+from creator_of_cnpj import validator,generate
 
-
-
+h=validator(generate())
 
 def validator(cnpj):   
     sequence= cnpj[0] * len(cnpj)
@@ -67,4 +67,4 @@ def validator(cnpj):
             print(error)
   
     
-print(validator(cnpj))    
+print(validator(h))    
